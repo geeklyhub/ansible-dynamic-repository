@@ -2,6 +2,7 @@
 
 '''
 Example custom dynamic inventory script for Ansible, in Python.
+move to python 3.8.2
 '''
 
 import os
