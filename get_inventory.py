@@ -30,13 +30,13 @@ class ExampleInventory(object):
         else:
             self.inventory = self.empty_inventory()
 
-        print( json.dumps(self.inventory));
+        print(json.dumps(self.inventory));
 
     # Example inventory for testing.
     def example_inventory(self):
         return {
             'group': {
-                'hosts': ['51.68.28.198' ],
+                'hosts': ['51.255.211.167'],
                 'vars': {
                     'ansible_ssh_user': 'centos',
                     'ansible_ssh_private_key_file':
